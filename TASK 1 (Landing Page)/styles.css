@@ -1,0 +1,48 @@
+body{
+    background-color: #19191e;
+    /* overflow: hidden; */
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    position: absolute;
+    top: 2.52778rem;
+    width: 100%;
+}
+
+.nav-container{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 68rem;
+    min-width: 3.6rem;
+    display: flex;
+}
+.nav-left{
+    display: flex;
+    padding: 0px;
+}
+.nav-right{
+    display: flex;
+}
+
+.nav-logo{
+    width: 5%;
+    height: 5%;
+    margin: auto;
+}
+
+.part{
+    margin: auto;
+}
+
+.nav-left li, .nav-right li{
+    font-size: small;
+    padding: 0.36111rem 1rem;
+    color: #19191e;
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: UfcSansCondensedMedium,"Arial Narrow",Arial,sans-serif;
+}
