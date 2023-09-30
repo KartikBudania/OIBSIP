@@ -5,25 +5,16 @@
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" type="text/css" href="/TASK 1 (Landing Page)/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="/TASK 1 (Landing Page)/icon.ico">
     <title>Anshul Jubli</title>
 </head>
 
 <body>
     <div class="nav">
-        <div class="nav-container">
-            <div class="part">
-                <ul class="nav-left">
-                    <li>EVENTS</li>
-                    <li>RANKINGS</li>
-                    <li>ATHLETES</li>
-                    <li>NEWS</li>
-                    <li>DANA WHITE'S CONTENDER SERIES</li>
-                </ul>
-            </div>
-
-            <img src="/TASK 1 (Landing Page)/ufc.png" class="nav-logo">
-
+        <div class="nav-container">          
             <div class="part">
                 <ul class="nav-right">
                     <li>UFC 30</li>
@@ -34,45 +25,55 @@
                 </ul>
             </div>
 
+            <img src="/TASK 1 (Landing Page)/ufc.png" class="nav-logo">
 
-
+            <div class="part">
+                <ul class="nav-left">
+                    <li>EVENTS</li>
+                    <li>RANKINGS</li>
+                    <li>ATHLETES</li>
+                    <li>NEWS</li>
+                    <li>DANA WHITE'S CONTENDER SERIES</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="main">
         <div class="left">
             <ul class="division">
-                <li>Lightweight Division</li>
-                <li>Active</li>
+                <li class="division-li">Lightweight Division</li>
+                <li class="division-li">Active</li>
             </ul>
-            <p class="nick-name">"KING OF LIONS"</p>
+            <p class="nick-name">" KING OF LIONS "</p>
             <p class="name">ANSHUL JUBLI</p>
             <p class="details">Lightweight Division</p>
             <p class="details">7-0-0 [W-L-D]</p>
-            <p class="record">
-            <p class="item">
+            <div class="record">
+            <div class="item">
             <ul class="record-item-list">
-                <li>1</li>
-                <li>WINS BY KNOCKOUT</li>
+                <li class="number">1</li><hr style="width: 60%; color: #d20a0a; border-style: solid;">
+                <li class="win-detail">WINS BY KNOCKOUT</li>
             </ul>
-            </p>
-            <p class="item">
+            </div>
+            <div class="item">
             <ul class="record-item-list">
-                <li>1</li>
-                <li>WINS BY SUBMISSION</li>
+                <li class="number">1</li><hr style="width: 60%; color: #d20a0a; border-style: solid;">
+                <li class="win-detail">WINS BY SUBMISSION</li>
             </ul>
-            </p>
-            <p class="item">
+            </div>
+            <div class="item">
             <ul class="record-item-list">
-                <li>2</li>
-                <li>FIRST ROUND FINISHES</li>
+                <li class="number">2</li><hr style="width: 65%; color: #d20a0a; border-style: solid;">
+                <li class="win-detail">FIRST ROUND FINISHES</li>
             </ul>
-            </p>
-            </p>
+            </div>
+            </div>
         </div>
         <div class="center">
-            <img src="./anshul.png" alt="Anshul Jubli">
+            <img src="./anshul.png" alt="Anshul Jubli" class="anshul">
         </div>
         <div class="right">
+            <div class="description-container">
             <p class="description">Anshul Jubli (born 13 January 1995) also known as King of Lions is an Indian mixed
                 martial artist from New Delhi who is currently signed to the lightweight division of Ultimate Fighting
                 Championship, where he became the second person from India, to get a UFC contract, as well as first
@@ -80,9 +81,9 @@
                 Bharat Khandare.<br><br>
 
                 Anshul is set to captivate the world on October 21st in his upcoming UFC fight. Don't miss the action!
-            </p>
-
-            <a href="https://www.ufc.com/athlete/anshul-jubli#athlete-record">VIEW FIGHT HISTORY</a>
+            </p></div>
+            <div class="history-container">
+            <a href="https://www.ufc.com/athlete/anshul-jubli#athlete-record" class="history">VIEW FIGHT HISTORY</a></div>
         </div>
     </div>
 </body>
